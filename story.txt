@@ -1,0 +1,16 @@
+//This will be a custom format story file. I am making this up as I go, and will add more features as necessary.
+//We will give it the same comment character as Java to make it simple.
+//Optional requirement must be fulfilled to use a path. Types are i - item, h - history (visited specified room)
+
+[Room 0]
+[View 0]
+
+[End-View]
+[Path 1 "go north" req(i)=key]
+[End-Room]
+
+[Room 1]
+Room Two
+This room looks nice also.
+[Path 0 "go south"]
+[End-Room]
